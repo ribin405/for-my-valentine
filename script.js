@@ -241,11 +241,11 @@ const surpriseVideo = document.getElementById('surprise-video');
 const videoClose = document.getElementById('video-close');
 
 const quotes = [
-  {text: "....", author: '— Me'},
-  {text: ".....", author: '— Yours'},
-  {text: "......", author: '— Always'},
-  {text: ".......", author: '— Forever'},
-  {text: "........", author: '— With love'}
+  {text: "❤️", author: '— Me'},
+  {text: "❤️", author: '— Yours'},
+  {text: "❤️", author: '— Always'},
+  {text: "❤️", author: '— Forever'},
+  {text: "❤️", author: '— With love'}
 ];
 
 // Quiz state
@@ -449,6 +449,7 @@ lightbox.addEventListener('pointerup', (e) => {
   const dx = e.clientX - startX;
   if (Math.abs(dx) > 40){ if (dx < 0) nextLightbox(); else prevLightbox(); }
 });
+
 
 
 
