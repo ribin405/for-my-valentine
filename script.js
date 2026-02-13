@@ -1,6 +1,6 @@
 function makeHeart(x, y) {
   const img = document.createElement('img');
-  img.src = 'assets/heart.svg';
+  img.src = 'heart.svg';
   img.className = 'floating-heart';
   img.style.left = x + 'px';
   img.style.top = y + 'px';
@@ -449,6 +449,7 @@ lightbox.addEventListener('pointerup', (e) => {
   const dx = e.clientX - startX;
   if (Math.abs(dx) > 40){ if (dx < 0) nextLightbox(); else prevLightbox(); }
 });
+
 
 
 
