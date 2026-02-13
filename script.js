@@ -241,11 +241,11 @@ const surpriseVideo = document.getElementById('surprise-video');
 const videoClose = document.getElementById('video-close');
 
 const quotes = [
-  {text: "You are my favorite hello and my hardest goodbye.", author: '— Me'},
-  {text: "THE Golden moments in our higher secondary.", author: '— Yours'},
-  {text: "The turning we got as a trip.", author: '— Always'},
-  {text: "I still fall for you every day.", author: '— Forever'},
-  {text: "You make ordinary moments unforgettable.", author: '— With love'}
+  {text: "....", author: '— Me'},
+  {text: ".....", author: '— Yours'},
+  {text: "......", author: '— Always'},
+  {text: ".......", author: '— Forever'},
+  {text: "........", author: '— With love'}
 ];
 
 // Quiz state
@@ -449,6 +449,7 @@ lightbox.addEventListener('pointerup', (e) => {
   const dx = e.clientX - startX;
   if (Math.abs(dx) > 40){ if (dx < 0) nextLightbox(); else prevLightbox(); }
 });
+
 
 
 
